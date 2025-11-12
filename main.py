@@ -6,7 +6,7 @@ import threading
 from aiohttp import web
 
 # 🔐 Твій токен і чат адміністрації
-TOKEN = "8445444619:AAFdR4jF1IQJzEFlL_DsJ-JTxT9nwkwwC58"
+TOKEN = "8436221087:AAHfUdq28uv40eVWtuDuAYRVTyCXF6iZ6M0"
 ADMIN_CHAT_ID = -1003120877184  # чат адміністраторів
 MY_ID = 1470389051  # твій особистий ID для команди /ban
 
