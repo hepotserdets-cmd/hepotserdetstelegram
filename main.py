@@ -78,4 +78,8 @@ async def handle_messages(message: Message):
 # ============== Запуск ==============
 
 if __name__ == "__main__":
+    t = threading.Thread(target=run_web)
+    t.daemon = True
+    t.start()
+
     asyncio.run(dp.start_polling(bot))
